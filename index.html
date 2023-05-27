@@ -813,17 +813,6 @@
             preserveAspectRatio: 'xMinYMin slice',}
         });
 
-        var animation = bodymovin.loadAnimation({
-	    container:document.getElementById('05'),
-	    path: 'SVG/fai3.json',//นับจาก html
-	    renderer: 'svg',
-	    loop: true,
-        autoplay:true,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid meet',}
-        });
-
-
         gsap.registerPlugin(ScrollTrigger);
         ScrollTrigger.normalizeScroll(true);
         window.addEventListener("resize", function () {
