@@ -478,7 +478,7 @@
                 width:300px;
             }
             #content2 #text3 {
-            margin-top: 10vmax;
+            margin-top: 10vmin;
             }
 
             #content3{
